@@ -9,7 +9,10 @@
     "url": "git://github.com/ajoslin/angular-promise-tracker"
   },
   "license": "Public Domain",
-  "main": "./promise-tracker.js",
+  "main": [
+    "promise-tracker.js",
+    "promise-tracker-http-interceptor.js"    
+  ],
   "ignore": [
     "CHANGELOG.md",
     "Gruntfile.js",
@@ -20,10 +23,6 @@
     "package.json",
     "src",
     "test"
-  ],
-  "files": [
-    "promise-tracker.js",
-    "promise-tracker-http-interceptor.js"
   ],
   "devDependencies": {
     "angular": "1.3.x",
